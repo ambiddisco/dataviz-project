@@ -40,7 +40,7 @@ body {
     padding: 0;
     background-color: var(--BGCOLOR);
     min-height: 100vh;
-    background-image: url('/assets/images/new-york-night-cityscape.jpg');
+    background-image: url('{{ "/assets/images/new-york-night-cityscape.jpg" | relative_url }}');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
