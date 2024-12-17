@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataViz Project</title>
+    <link rel="stylesheet" href='/assets/style/style.css'>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/assets/style/style.css'>
+</head>
+<body>
+    <header>
+        <span class="info">
+            <ul>
+                <li>Final group project</li>
+                <li><h4>NYC: New York Crashes</h4></li>
+            </ul>
+        </span>
+        <nav>
+            <ul>
+                
+                    <a class="active" href="/">Home</a>
+                
+                    <a class="" href="/progress/">Progress</a>
+                
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
+    <div class="bk-img"></div>
+    <main>
+        <p>SUPSI 2024-25<br />
+Data Visualization course, M-D3202E<br />
+Final group project</p>
+
+<h1 id="nyc-new-york-crashes">NYC: New York Crashes</h1>
+
+<p>include an image</p>
+
+<h2 id="abstract">Abstract</h2>
+<p>Summary of rest of text</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>When thinking of something man made, not much is more flashy and attention drawing than our thousand-kilogram metal moving machines that are basically mechs, that we call cars. And taking it a step further, what is even more man-made is the biproduct of a human using such a machine, and the effects it has on the surrounding humans. In this data visualisation project, the story we intend to share is one on how to avoid harm from these machines and their pilots, through a study on a famous city and it’s history of crashes and collisions, taking decade-old pile of rubble and transforming it into a safety rail.</p>
+
+<p>Our objectives are to find the statistically most harmful sets of variables, so as to allow pedestrians to be mindful of the circumstances to avoid, when navigating the famous city of New York. The city was selected as an example, as it is well-known and a tourist attraction and disposes of complete data sources, and not due to any outliers in the number of collisions in this region as opposed to any other, nor for other outside factors.</p>
+
+<h2 id="data-scources">Data Scources</h2>
+<p>In order to perform meaningful research and analysis, the main dataset used in the visualisation project was taken from the official city site at “cityofnewyork.us”, released by the NYPD, and updated daily starting from the year 2014. This dataset contains 2.1 million rows of data - each describing a unique crash - and 29 columns describing various factors and specifics relating to the crash, such as location, time, and vehicles involved.
+For additional research, weather data for the same region was taken from the website “”, and used for finding possible correlation in the datasets, as crashes may occur due to any myriad of circumstances. This ended up being a mostly fruitless - albeit interesting - experiment.</p>
+
+<p><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data">NYC Motorvehicle Collision Dataset</a></p>
+
+<p><a href="https://www.kaggle.com/datasets/aadimator/nyc-weather-2016-to-2022/data">NYC Weather Dataset</a></p>
+
+<h2 id="data-pre-processing">Data pre-processing</h2>
+<p>At first glance, the motorvehicle collision dataset looks imposing and frightening, containing much more data than we have been made used to during our courses, and yet its completeness and easy readability provided with less stress than anticipated in the pre-processing steps.
+To obtain the data used in the visualisations, we removed any rows with missing or outlier positional data, then selected the features we deemed important and useful to our objectives, and did not make use of some variables which may have been of use with other research questions in mind, but that did not lead to direct help in this case, such as data about the state of the driver in the crash.</p>
+
+<h2 id="data-visualizations">Data visualizations</h2>
+<p>We chose to visualise important data surrounding the research following questions:</p>
+<ul>
+  <li>Where, as a citizen or tourist, am I most likely to be in danger when traversing the city of New York?</li>
+  <li>When am I most likely to be in danger?</li>
+</ul>
+
+<p>These two important questions are explored with the following visualisations:</p>
+
+<h3 id="v1-accidents-surrounding-the-most-popular-tourist-landmarks">V1: Accidents Surrounding The Most Popular Tourist Landmarks</h3>
+<p>Plotting the longitude and latitude of each crash, we create a map of source without delimiting any borders ourselves. Simply by visualising streets through this manner we can focus our attention on a specific famous landmark, and have a look at the type of vehicle involved in the accidents in the near vicinity.</p>
+
+<html>
+    <div class="visualisation">
+        <div class="tableauPlaceholder" id="viz1734351875752" style="position: relative">
+            <noscript>
+                <a href="#">
+                    <img alt="crash contributing factors " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;datavizproject_17343490320200&#47;Sheet1&#47;1_rss.png" style="border: none" />
+                </a>
+            </noscript>
+            <object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> 
+                <param name="embed_code_version" value="3" /> 
+                <param name="site_root" value="" />
+                <param name="name" value="datavizproject_17343490320200&#47;Sheet1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;datavizproject_17343490320200&#47;Sheet1&#47;1.png" /> 
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+                <param name="filter" value="publish=yes" />
+            </object>
+        </div>
+        <script type="text/javascript">
+            var divElement = document.getElementById('viz1734351875752');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+</html>
+
+<h3 id="v2-a-study-over-time-on-crash-data">V2: A Study Over Time on Crash Data</h3>
+<p>At any moment, calm may be disrrupted by a sudden mishap in the vicinity. To know when to stay the most alert, we plotted a series of timelines showing the number of accidents that happened in NYC.</p>
+
+<html><div class="visualisation">
+<div class="tableauPlaceholder" id="viz1734361715461" style="position: relative"><noscript><a href="#"><img alt="Dashboard 1 " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ny&#47;nycpedestrianmap&#47;Dashboard1&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" style="display:none;">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="nycpedestrianmap&#47;Dashboard1" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ny&#47;nycpedestrianmap&#47;Dashboard1&#47;1.png" />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+    </object></div>
+<script type="text/javascript">                    
+    var divElement = document.getElementById('viz1734361715461'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '977px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+</div></html>
+
+<h2 id="key-findings">Key findings</h2>
+<p>After all our research, some of our expectations were confirmed and others were shattered. We found that the most famous places are the most likely to be dangerous, the dead of night is the safest time from cars, and holidays are the most devious and dangerous times of year, but some of our preconceptions were shattered as our research into weather data had to be discarded due to lack of evidence showing any relation whatsoever to crash numbers. This shows us that no matter what we may expect, and no matter how obvious we may think our initial conclusions are, additional research is always necessary to confirm a theory.</p>
+
+<h2 id="next-steps">Next steps</h2>
+<p>As mantioned in the paragraph about dataset pre-processing, this visualisation made no use of some features that could be deemed interesting under different research questions, including data about the state of the drivers of the vehicles involved in the collisions, as these are not factors a pedestrian can control. A future step to enhance the understanding on motorvehicle crashes could include a deeper dive into the reasons behind accidents, and so look at the features we ignored, whilst also exploring other possible outside explanations in the same vein as the influence of the weather. This could possibly include research on local wildlife, public city events, natural phenomena like earthquakes, or even the influence of social actions like the practices put into action during the CoVid-19 outbreak.</p>
+
+    </main>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/assets/style/style.css'>
+</head>
+<body>
+    <footer>
+        <h4>Authors:</h4>
+        <p><a href="https://github.com/WiiLife">Ambrosetti</a>, <a href="https://github.com/ambiddisco">Biddiscombe</a>, <a href="https://github.com/Ysedra">Sedra</a></p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
