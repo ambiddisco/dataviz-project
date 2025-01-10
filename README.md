@@ -4,9 +4,10 @@ Final group project
 
 
 ## NYC: New York Crashes
+### Staying Safe in the Big Apple
 Authors: [William Ambrosetti](https://github.com/WiiLife), [Alexandra Biddiscombe](https://github.com/ambiddisco), [Youssef Sedra](https://github.com/Ysedra)
 
-[NYC: New York Crashes](https://dataviz-supsi.github.io/2024/template/)
+[NYC: New York Crashes](https://ambiddisco.github.io/dataviz-project/)
 
 
 ## Abstract
