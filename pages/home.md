@@ -8,7 +8,8 @@ layout: default
 ###### William Ambrosetti, Alexandra Biddiscombe, Youssef Sedra
 
 <div class="header-img">
-<img src="{{ site.url }}/assets/images/traffic_NY_cropped.jpg" alt="header traffic image">
+<img src="https://ambiddisco.github.io/dataviz-project/assets/images/traffic_NY_cropped.jpg" alt="header traffic image">
+
 </div>
 
 <div class="jump">
