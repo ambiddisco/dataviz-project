@@ -49,12 +49,12 @@ With this first data visualisation we want to answer the questions:
 “What is most likely to cause that danger?”
 You can find the answers by selecting a view of all boroughs of NYC, or by selecting a specific one on each graph by ticking its respective box.
 
-[<img src="https://ambiddisco.github.io/dataviz-project/assets/images/visualizations/space.jpeg" width="800" alt="visualising accidents in space">]()
-<img src="https://ambiddisco.github.io/dataviz-project/assets/images/traffic_NY_cropped.jpg" alt="header traffic image">
+<img src="https://ambiddisco.github.io/dataviz-project/assets/images/visualizations/space.jpeg" alt="visualising accidents in space">
+
 ### New York Crashes: The When
 At any moment, calm may be disrrupted by a sudden mishap in the vicinity. To know when to stay the most alert, we plotted a series of timelines showing the number of accidents that happened in NYC.
 
-[<img src="https://ambiddisco.github.io/dataviz-project/assets/images/visualizations/time.jpeg" width="800" alt="visualising accidents in time">]()
+<img src="https://ambiddisco.github.io/dataviz-project/assets/images/visualizations/time.jpeg" alt="visualising accidents in time">
 
 
 ## Key findings
