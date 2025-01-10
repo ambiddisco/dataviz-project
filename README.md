@@ -54,7 +54,7 @@ You can find the answers by selecting a view of all boroughs of NYC, or by selec
 ### New York Crashes: The When
 At any moment, calm may be disrrupted by a sudden mishap in the vicinity. To know when to stay the most alert, we plotted a series of timelines showing the number of accidents that happened in NYC.
 
-[<img src="assets/images/visualizations/time.jpeg" width="800" alt="Placeholder image">]()
+[<img src="assets/images/visualizations/time.jpeg" width="800" alt="visualising accidents in time">]()
 
 
 ## Key findings
