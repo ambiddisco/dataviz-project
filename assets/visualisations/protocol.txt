@@ -1,0 +1,45 @@
+clean_data_vehicle_crashes:
+    created separate dataset with corrected values (eg. TAXI and taxi made the same)
+    removed uninformative info. (eg. nan, 80, 1, unknown)
+    made bar graph to check
+
+nyc_motor_vehicloe_crashes:
+    imoprted data
+    created a road using function
+    experimented different vizulisations
+
+weather_data:
+    imported weather data corelated to the crashes (some dates didn't cvorelate so we got the union)
+    experimented with visulizations
+    checked for correlation with weather conditions
+
+
+visulization protocols with tableau:
+    Protocol: types of cars:
+    1. included in marks: vehicle code by shape and color
+    2. filters: vehicle type and borough
+
+    Protocol holiday crashes:
+    1. columns: crash time by hour
+    2. rows: count of collisions
+    3. filters: "calculation 1" includes famous holidays
+
+    Protocol crash by district:
+    1. rows & columns: longitude and latitude on map
+    2. Marks: count collisions (color graded) by zip code
+    3. Filters: filtered by borough
+
+    Protocol crashes by years:
+    1. columns: crashes by year
+    2. rows: count crashes by collision id
+    3.filter: filtered by crash year
+
+    protocol crashes by month:
+    1. columns: crash date by month
+    2. rows: count crashes with collision id
+    3. filters: filter by year
+
+    protocol crashes each day of th emonth:
+    1. columns: crash date by day
+    2. rows: count crash collision id
+    3. filters: filter xcrashes by year
