@@ -44,7 +44,7 @@ body {
     padding: 0;
     background-color: var(--BGCOLOR);
     min-height: 100vh;
-    background-image: url('{{site.url}}/assets/images/city-lights.jpg');
+    background-image: url('https://ambiddisco.github.io/dataviz-project/assets/images/city-lights.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
