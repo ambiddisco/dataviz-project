@@ -79,10 +79,6 @@ To adequately answer this question, there is a selection of different timeframes
 {% include visualisation-2.html %}
 
 
-then possible Thoughts and Findings
-
-Conclusion
-
 <br>
 <br>
 <br>
