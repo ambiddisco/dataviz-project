@@ -45,7 +45,7 @@ Below is a scatterplot containing every crash in NYC between 2014 and 2024, usin
 
 <hr>
 <br>
-![]({{ site.url }}/assets/images/accident-plot.jpeg)
+![](https://ambiddisco.github.io/dataviz-project/assets/images/accident-plot.jpeg)
 
 <hr>
 <br>
