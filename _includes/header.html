@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='{{ "/assets/style/style.css" | relative_url }}'>
+</head>
+<body>
+    <header>
+        <span class="info">
+            <ul>
+                <li>Final group project</li>
+                <li><h5>NYC: New York Crashes</h5></li>
+            </ul>
+        </span>
+        <span>
+            <ul>
+                <li>SUPSI 2024-25</li>
+                <li><a href="https://dataviz-supsi.github.io/2024/">Data Visualization Course</a>, M-D32023</li>
+            </ul>
+        </span>
+        <!--
+        <nav>
+            <ul>
+                {% for item in site.data.navigation %}
+                    <a class="{% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a>
+                {% endfor %}
+            </ul>
+        </nav>
+        -->
+    </header>
+    
+</body>
+</html>

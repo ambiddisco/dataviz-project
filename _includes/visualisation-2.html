@@ -1,0 +1,16 @@
+<div class="visualisation">
+    <div class="visualisation-2">
+        <!--
+        <label for="vizzes">Choose a Timescale</label>
+        <select name="vizzes" id="vizzes">
+            <option value="days">Daily</option>
+            <option value="weeks">Monthly</option>
+            <option value="years">Yearly</option>
+        </select>
+        -->
+        {% include data-viz-day.html %}
+        {% include data-viz-month.html %}
+        {% include data-viz-year.html %}
+    </div>
+    <h5><a href="{{ 'assets/visualizations/cleaned_data_nyc_vehicle_crashes.csv' | relative_url }}">Download Dataset</a></h5>
+</div>
