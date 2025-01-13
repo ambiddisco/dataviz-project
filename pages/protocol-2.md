@@ -4,7 +4,7 @@ layout: default
 permalink: /protocol-2
 ---
 
-[<- GO BACK](/#data-visualizations)
+[<- GO BACK](({ "/#data-visualizations" | relative_url })
 
 Visualization protocols with tableau:
 (note! data from 2013-2023 since we want to exclude unfinished years of the dataset)
