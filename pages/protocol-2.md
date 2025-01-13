@@ -7,7 +7,7 @@ permalink: /protocol-2
 [<- GO BACK](https://ambiddisco.github.io/dataviz-project/#data-visualizations)
 
 Visualization protocols with tableau:
-(note! data from 2013-2023 since we want to exclude unfinished years of the dataset)
+(Note: data from 2013-2023 since we want to exclude unfinished years of the dataset)
 
 
 ### CRASHES BY YEAR:
