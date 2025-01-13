@@ -4,7 +4,7 @@ layout: default
 permalink: /protocol
 ---
 
-[<- GO BACK TO VISUALIZATIONS]((https://ambiddisco.github.io/dataviz-project/#data-visualizations)
+[<- GO BACK TO VISUALIZATIONS](https://ambiddisco.github.io/dataviz-project/#data-visualizations)
 
 Visualization protocols with tableau:
 
